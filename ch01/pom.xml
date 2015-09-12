@@ -5,6 +5,10 @@
 	<artifactId>ch01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.sun.faces</groupId>
@@ -13,4 +17,5 @@
 		</dependency>
 	</dependencies>
 
+	<packaging>pom</packaging>
 </project>
